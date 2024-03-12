@@ -1,0 +1,4 @@
+purple/magenta type colour = #4f39f9
+deep blue = #0b1bf9
+turquoise = #0b1bf9
+pale pink = #f3d8ec
