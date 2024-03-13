@@ -3,6 +3,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 import os
 import dj_database_url
+from django.core.exceptions import ImproperlyConfigured
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
