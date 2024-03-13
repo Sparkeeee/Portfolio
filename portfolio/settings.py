@@ -12,10 +12,10 @@ TEMPLATES_DIR = BASE_DIR / 'templates'
 
 dotenv_file = os.path.join(BASE_DIR, ".env")
 
-if os.path.isfile('dotenv_file'):
-    dotenv.load_dotenv(dotenv_file)
+if os.path.isfile(dotenv_file):
+    dotenv.load_dotenv('.env')
 
-load_dotenv()
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
