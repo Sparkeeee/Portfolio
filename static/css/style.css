@@ -6,15 +6,16 @@ font-family: 'Heebo', sans-serif; */
   --primaryColor: #9C07B6;
   --primaryDarkColor: #3D0048;
   --primaryHoverColor: #900AA8;
-  --secondaryColor: #F9B000;
-  --baseColor: #21243D;
+  --secondaryColor: #10dfab;
+  --baseColor: #040662;
   --baseFont: 'Heebo', sans-serif;
   --titleFont: 'Courier Prime', monospace;
   --regular: 400;
   --medium: 500;
   --bold: 700;
   --black: 900;
-  --lightBg: #F1F1F1;
+  --lightBg: #e2d4e0;
+  font-size:40px;
 }
 html {
   scroll-behavior: smooth;
@@ -23,6 +24,7 @@ body {
   font-family: var(--baseFont);
   color: var(--baseColor);
   line-height: normal;
+  background-color: var(--secondaryColor)
 }
 ul {
   margin: 0;
@@ -706,8 +708,11 @@ body.navToggleActive {
     opacity: 0.8;
   }
   .logoCol img {
-  	width: 50px;
+  	max-width: 50px;
+    max-height: 50px;
   }
+ 
+
   .fixedHeader .headerCol,  .headerCol {
   	padding: 10px 0;
   }
