@@ -13,7 +13,7 @@ TEMPLATES_DIR = BASE_DIR / 'templates'
 dotenv_file = os.path.join(BASE_DIR, ".env")
 
 if os.path.isfile(dotenv_file):
-    dotenv.load_dotenv('.env')
+    load_dotenv('.env')
 
 
 
