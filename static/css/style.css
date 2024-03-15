@@ -7,7 +7,7 @@ font-family: 'Heebo', sans-serif; */
   --primaryDarkColor: #3D0048;
   --primaryHoverColor: #900AA8;
   --secondaryColor: #10dfab;
-  --baseColor: #040662;
+  --baseColor: #041d62;
   --baseFont: 'Heebo', sans-serif;
   --titleFont: 'Courier Prime', monospace;
   --regular: 400;
@@ -137,7 +137,7 @@ a, .btn {
 
 
 .headerCol {
-  background-color: var(--bs-white);
+  background-color: var(--baseColor);
 	padding: 18px 0;
 	-webkit-transition: all 300ms ease-in-out 0s;
 	-o-transition: all 300ms ease-in-out 0s;
@@ -161,7 +161,7 @@ a, .btn {
 }
 .navCol a {
 	font-size: 20px;
-	color: #000;
+	color: var(--lightBg);
   font-weight: var(--medium);
   display: inline-block;
   position: relative;
@@ -266,7 +266,7 @@ a, .btn {
 	padding: 180px 0 80px;
 }
 .bannerUserImg {
-  margin-left: 30px;
+  /* margin-left: 30px; */
   width: 240px;
   height: 240px;
   border-radius: 50%;
@@ -289,6 +289,7 @@ a, .btn {
   height: 100%;
   background-color: #EDF7FA;
   border-radius: 50%;
+  justify-content: center;
 }
 .bannerBtnCol {
 	padding-top: 15px;
